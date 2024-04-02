@@ -1,0 +1,24 @@
+---
+sidebar_position: 4
+---
+
+# Accessing Data on the DSP
+
+The DSP allows users to access data from external sources such as on-prem databases or the Enterprise Data Lake.
+
+## Requesting Data from the EDL
+
+## Connecting an on-prem DB
+
+> Note: When requesting data it is important not to copy it directly into a DSPs SQL Database since this is not what a DSP env is built for and it could drastically increase costs. It is recommended to implement logic in Databricks to process the data before storing it in DSP DBs.
+
+Due to the BASFs strategy of moving all data to the cloud, users are disencouraged to use on-prem storage solutions.
+
+## Storing large amounts of Data in the Cloud
+
+ADLS v2 storage containers are a multi purpose storage solution meant for (but not limited to) the following cases:
+
+- To persist calculations done within the DSP env.
+- To store data that you get directly from an external source [Through Azure Data Factory]
+- To store files you might upload manually
+- etc...

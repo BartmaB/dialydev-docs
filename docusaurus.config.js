@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'daily.dev',
+  title: 'Welcome to the DSP!',
   tagline: 'Where developers grow together',
   url: 'https://docs.daily.dev/',
   baseUrl: '/',
@@ -80,8 +80,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-          },
-
+          },          
+          {
+            label: 'DSP Team',
+            href: '/DSP-team',
+            position: 'left',
+          },        
           {
             label: 'Changelog',
             href: 'https://app.daily.dev/sources/daily_updates',

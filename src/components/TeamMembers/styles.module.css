@@ -1,0 +1,28 @@
+.teamMembers {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+.teamMember {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.role {
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  margin-bottom: 0.75rem;
+}
+
+.photo {
+  height: 200px;
+  margin-right: 1.5rem;
+}
